@@ -10,13 +10,18 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId> <!-- something should be here--></groupId>
-    <artifactId> <!-- something should be here--></artifactId>
-    <version> <!-- something should be here--></version>
+    <groupId>org.example.utils</groupId>
+    <artifactId>utils</artifactId>
+    <version>1.3.5</version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-        <!-- something should be here-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
